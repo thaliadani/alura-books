@@ -15,7 +15,7 @@
 <body>
     
     <header class="cabecalho">
-        <div class="container">
+        <section class="container">
             <input type="checkbox" aria-label="menu" id="menu" class="container__botao">
             <label for="menu">
                 <span class="cabecalho__menu container__imagem" ></span>
@@ -40,7 +40,7 @@
             </ul>
             <img src="imgs/logo.svg" alt="Logo da Alurabooks" class="container__imagem" >
             <h1 class="container__titulo"><span>Alura</span>Books</h1>
-        </div>
+        </section>
 
         <ul class="opcoes">
             <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
@@ -67,29 +67,41 @@
                 </li>
             </ul>
             
-            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
-            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
+            <li class="opcoes__item">
+                <a href="#" class="opcoes__link">Favoritos</a>
+            </li>
+            <li class="opcoes__item">
+                <a href="#" class="opcoes__link">Minha Estante</a>
+            </li>
         
         </ul>
         
-        <div class="container">
-            <a href="#"><img src="imgs/favoritos.svg" alt="Meus favoritos" class="container__imagem imagem__favoritos" ></a>
-            <a href="#"><img src="imgs/compras.svg" alt="Minhas compras" class="container__imagem"></a>
-            <a href="#"><img src="imgs/usuario.svg" alt="Meu perfil" class="container__imagem imagem__usuario"></a>
-        </div>
+        <section class="container">
+            <a href="#">
+                <img src="imgs/favoritos.svg" alt="Meus favoritos" class="container__imagem imagem__favoritos" >
+            </a>
+            <a href="#" class="container__link">
+                <img src="imgs/compras.svg" alt="Minhas compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="imgs/usuario.svg" alt="Meu perfil" class="container__imagem imagem__usuario">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </section>
     
     </header>
     
-    <section class="banner">
+    <main class="banner">
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
-    </section>
+    </main>
     
-    <section class="carrossel">
+    <main class="carrossel">
         <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
         <!-- Slider main container -->
-        <div class="swiper">
+        <section class="swiper">
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
             <!-- Additional required wrapper -->
@@ -108,9 +120,9 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         
-        </div>
+        </section>
         
-        <div class="card">
+        <section class="card">
             <div class="card__descricao">
                 <div class="descricao">
                     <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
@@ -126,13 +138,13 @@
                 </ul>
                 <a href="#" class="botoes__ancora">Saiba mais</a>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
     
-    <section class="carrossel">
+    <main class="carrossel">
         <h2 class="carrossel__titulo">Mais Vendidos</h2>
         <!-- Slider main container -->
-        <div class="swiper">
+        <section class="swiper">
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
             <!-- Additional required wrapper -->
@@ -149,9 +161,9 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         
-        </div>
+        </section>
         
-        <div class="card">
+        <section class="card">
             <div class="card__descricao">
             
                 <div class="descricao">  
@@ -169,50 +181,52 @@
                 </ul>
                 <a href="#" class="botoes__ancora">Saiba mais</a>
             </div>
-        </div>
+        </section>
     
-    </section>
+    </main>
     
-    <section class="topicos">
-            <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
-            <ul class="topicos__lista">
-                <li class="topicos__item">
-                    <a class="topicos__link" href="#">Android</a>
-                </li>
-                <li class="topicos__item">
-                    <a class="topicos__link" href="#">Marketing Digital</a>
-                </li>
-                <li class="topicos__item">
-                    <a class="topicos__link" href="#">Agile</a>
-                </li>
-                <li class="topicos__item">
-                    <a class="topicos__link" href="#">Startups</a>
-                </li>
-                <li class="topicos__item">
-                    <a class="topicos__link" href="#">HTML & CSS</a>
-                </li>
-                <li class="topicos__item">
-                    <a class="topicos__link" href="#">Phyton</a>
-                </li>
-                <li class="topicos__item">
-                    <a class="topicos__link" href="#">oo</a>
-                </li>
-                <li class="topicos__item">
-                    <a class="topicos__link" href="#">Java</a>
-                </li>
-            </ul>
+    <main class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a class="topicos__link" href="#">Android</a>
+            </li>
+            <li class="topicos__item">
+                <a class="topicos__link" href="#">Marketing Digital</a>
+            </li>
+            <li class="topicos__item">
+                <a class="topicos__link" href="#">Agile</a>
+            </li>
+            <li class="topicos__item">
+                <a class="topicos__link" href="#">Startups</a>
+            </li>
+            <li class="topicos__item">
+                <a class="topicos__link" href="#">HTML & CSS</a>
+            </li>
+            <li class="topicos__item">
+                <a class="topicos__link" href="#">Phyton</a>
+            </li>
+            <li class="topicos__item">
+                <a class="topicos__link" href="#">oo</a>
+            </li>
+            <li class="topicos__item">
+                <a class="topicos__link" href="#">Java</a>
+            </li>
+        </ul>
 
-    </section>
+    </main>
 
-    <section class="contato">
-        <div class="contato__descricao">
+    <main class="contato">
+        
+        <section class="contato__descricao">
             <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
             <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-        </div>
+        </section>
+        
         <input type="email" class="contato__email" placeholder="Cadastre seu e-mail">
-    </section>
+    </main>
     
-    <section class="rodape">
+    <footer class="rodape">
         <h2 class="rodape__titulo">Grupo Alura</h2>
         
         <ul class="lista-rodape">
@@ -274,9 +288,8 @@
                 <a href="#" class="lista-rodape__link">GUJ</a> 
             </li>
         </ul>
-    </section>
     </footer>
-    
+   
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
     <script>
