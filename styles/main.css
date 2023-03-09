@@ -404,6 +404,7 @@ body{
     }
 
     .contato__titulo{
+        font-weight: 500;
         font-size: 24px;
     }
 
@@ -473,16 +474,80 @@ body{
         font-size: 20px;
     }
 
+    .banner{
+        padding: 6em 0;
+    }
+
+    .banner__pesquisa{
+        width: 35%;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 4em;
+    }
+
     .carrossel__titulo{
         font-size: 32px;
     }
 
-    .swiper{
-        
-        
+    .carrossel__container{
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
     }
-  
-    .card{
 
+    .swiper-pagination{
+        margin: 1em 0;
     }
+
+    .swiper{
+        width: 50%;
+    }
+
+    .card{
+        width: 60%;
+        margin-left: 3em;
+    }
+
+    .descricao{
+        margin-right: 2em;
+    }
+
+    .descricao__titulo{
+        font-size: 32px;
+    }
+
+    .descricao__texto{
+        font-size: 16px;
+    }
+
+    .topicos{
+        padding: 6em 21vw;
+    }
+
+    .topicos__titulo{
+        font-size: 32px;
+    }
+
+    .contato{
+        padding: 3em 0;
+    }
+
+    .contato__descricao{
+        width: 22%;
+    }
+
+    .contato__email{
+        width: 17%;      
+    }
+
+    .rodape{
+        padding: 3em 0;
+    }
+
+    .lista-rodape{
+        border-left: 1px solid var(--cor-cinza);
+        padding-left: 1.25em;
+    }
+
 }
