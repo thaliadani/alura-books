@@ -209,6 +209,7 @@ body{
 
 .topicos{
     background: var(--cor-degrade);
+  
     text-align: center;
     padding: 1.5em 0;
 }
