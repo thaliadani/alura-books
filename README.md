@@ -1,4 +1,4 @@
-<h1 align="center"> ALURA BOOKS </h1>
+<h1 align="center"> <a href="https://alura-books-olive.vercel.app/" target="_blank" rel="noopener noreferrer">ALURA BOOKS</a></h1>
 
 <div>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
@@ -8,10 +8,9 @@
 </div><br>
 
 <div align="center">
+  <h2>MOBILE</h2>
 
-   <h2>DESKTOP</h2>
-
-  https://user-images.githubusercontent.com/31187727/224131868-61a149ed-bbcb-405d-aa5a-ed8f2b163486.mp4
+  https://user-images.githubusercontent.com/31187727/224143136-e0373457-f61b-461c-9032-910b4c6579a1.mp4
 
   <br>
   <h2>TABLET</h2>
@@ -19,8 +18,8 @@
   https://user-images.githubusercontent.com/31187727/224140043-0dcfe7fc-23c3-48ea-bca5-3baddb0ae1ec.mp4
 
   <br>
-   <h2>MOBILE</h2>
+  <h2>DESKTOP</h2>
 
-  https://user-images.githubusercontent.com/31187727/224143136-e0373457-f61b-461c-9032-910b4c6579a1.mp4
+  https://user-images.githubusercontent.com/31187727/224131868-61a149ed-bbcb-405d-aa5a-ed8f2b163486.mp4
 
 </div>
